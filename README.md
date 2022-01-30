@@ -15,6 +15,14 @@ Optional (PowerShell Administrator):
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 npm install -g npm-windows-upgrade
 npm-windows-upgrade
+
+NPM NOTICE:
+New minor version of npm available! 8.1.2 -> 8.4.0
+Changelog: https://github.com/npm/cli/releases/tag/v8.4.0
+Run npm install -g npm@8.4.0 to update!
+
+npm install -g npm@8.4.0
+
 ```
 
 ## NVM | Node version Manager
@@ -47,5 +55,14 @@ package.json
     "eject": "react-scripts eject"
   },
 
+
+
+npx create-react-app my-app --template typescript
+
+npm run start
+npm build
+
+SASS:
+npm install sass
 
 ```
