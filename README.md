@@ -8,6 +8,13 @@ npm cache verify
 
 
 npm install -g npm
+
+
+Optional (PowerShell Administrator):
+
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+npm install -g npm-windows-upgrade
+npm-windows-upgrade
 ```
 
 ## NVM | Node version Manager
