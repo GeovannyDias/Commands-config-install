@@ -26,7 +26,10 @@ nvm
 nvm list available
 nvm list 
 
-nvm use 16.6.2
+nvm install
+nvm install 16.13.2
+
+nvm use 16.13.2
 
 ```
 
