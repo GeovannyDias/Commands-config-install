@@ -67,6 +67,16 @@ npm install sass
 
 ```
 
+## RegExp or RegEx - ES5
+* **https://regex101.com/**
+
+```
+const patternValue = /^([0-9])*$/; // Integer
+const patternValue = /^[0-9]+(.[0-9]{1,2})?$/; // Decimal con coma y con punto
+const patternValue = /^[0-9]+([.][0-9]{1,2})?$/; // Decimal solo con punto
+
+```
+
 ## Tutoriales React
 * **https://www.youtube.com/watch?v=U_jlqtLX4nE**
 * 
