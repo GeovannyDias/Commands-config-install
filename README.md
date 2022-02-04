@@ -75,6 +75,10 @@ const patternValue = /^([0-9])*$/; // Integer
 const patternValue = /^[0-9]+(.[0-9]{1,2})?$/; // Decimal con coma y con punto
 const patternValue = /^[0-9]+([.][0-9]{1,2})?$/; // Decimal solo con punto
 
+const cadena = "hello world!";
+const result = /^hello/.test(cadena);
+console.log(result); // true
+
 ```
 
 ## Tutoriales React
