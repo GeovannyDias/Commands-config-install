@@ -74,9 +74,20 @@ npm install sass
 ## Variables de entornos en ReactJS
 * **https://blogs.encamina.com/piensa-en-software-desarrolla-en-colores/como-gestionar-las-variables-de-entornos-en-reactjs/**
 * **https://blog.santiagoporras.com/react-variables-entorno/**
-* 
+* **https://www.youtube.com/watch?v=_17erZzdDTk**
 ```
+Variables empezar con:
 
+REACT_APP
+
+Ejemplo:
+
+REACT_APP_API_URL=MY_ENV_APIURL
+
+.env
+.env.development
+.env.production
+.env.local
 ```
 
 ## RegExp or RegEx - ES5
