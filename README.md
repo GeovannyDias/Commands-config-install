@@ -71,6 +71,14 @@ npm install sass
 
 ```
 
+## Variables de entornos en ReactJS
+* **https://blogs.encamina.com/piensa-en-software-desarrolla-en-colores/como-gestionar-las-variables-de-entornos-en-reactjs/**
+* **https://blog.santiagoporras.com/react-variables-entorno/**
+* 
+```
+
+```
+
 ## RegExp or RegEx - ES5
 * **https://regex101.com/**
 
