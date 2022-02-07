@@ -55,7 +55,11 @@ package.json
     "eject": "react-scripts eject"
   },
 
+OR:
 
+Create a .env file at the root of the project:
+
+PORT=4200
 
 npx create-react-app my-app --template typescript
 
