@@ -107,3 +107,11 @@ console.log(result); // true
 ## Tutoriales React
 * **https://www.youtube.com/watch?v=U_jlqtLX4nE**
 * 
+
+## Generate TypeScript Interface from JSON
+* **http://json2ts.com/**
+
+```
+json2ts
+Generate TypeScript Interface from JSON
+```
