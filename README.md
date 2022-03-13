@@ -39,6 +39,7 @@ nvm install 16.13.2
 
 nvm use 16.13.2
 
+Command prompt run as administrator.
 ```
 
 ## React.js
