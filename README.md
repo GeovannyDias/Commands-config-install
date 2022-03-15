@@ -116,3 +116,26 @@ console.log(result); // true
 json2ts
 Generate TypeScript Interface from JSON
 ```
+
+## Angular
+
+```
+Instalar Angular CLI :
+
+npm i -g @angular/cli
+
+Actualizar Angular CLI de manera global:
+
+npm uninstall -g @angular/cli
+npm cache clean --force
+npm i -g @angular/cli
+ng --version
+
+```
+
+## Package NPM
+
+```
+npm install -g @briebug/jest-schematic
+npm install --global yarn
+```
