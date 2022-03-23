@@ -144,7 +144,7 @@ ng g m app-material -m=app --flat
 
 Create project modules (home, about and contact):
 
-ng g m modules/home --routing
+ng g m modules/home --routing → (Crea el módulo y fichero home-routing.ts)
 ng g m modules/about --routing
 ng g m modules/contact --routing
 
