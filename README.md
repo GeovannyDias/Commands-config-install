@@ -131,6 +131,26 @@ npm cache clean --force
 npm i -g @angular/cli
 ng --version
 
+CLI:
+
+ng g module components/pages/home -m=app --route home
+ng g c components/posts/new-post -m=app
+ng g module components/posts/new-post -m=app => Solo crear un "módulo". (Sin rutas)
+ng g module components/posts/list-posts -m=app --route posts
+ng g c components/posts/post
+ng g m app-material -m=app --flat
+
+Create project modules (home, about and contact):
+
+ng g m modules/home --routing
+ng g m modules/about --routing
+ng g m modules/contact --routing
+
+ng g c modules/home/componente01 --skipTests
+ng g c shared/Page404 --skip-tests
+
+https://fjmduran.com/blog/lazy_load_angular
+
 ```
 
 ## Package NPM
