@@ -134,7 +134,7 @@ ng --version
 CLI:
 
 ng g module components/pages/home -m=app --route home
-Crea el módulo, routing y componente (-m=app → Crea la ruta "home" en app-routing.ts)
+Crea el módulo, routing y componente (-m=app --route home → Crea la ruta "home" en app-routing.ts)
 
 ng g c components/posts/new-post -m=app
 ng g module components/posts/new-post -m=app => Solo crear un "módulo". (Sin rutas)
