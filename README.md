@@ -151,8 +151,18 @@ ng g m modules/contact --routing
 ng g c modules/home/componente01 --skipTests
 ng g c shared/Page404 --skip-tests
 
+ng g m app-material -m=app --flat
+
+ng g m pipes/pipes -m=app --flat
+ng g pipe pipes/filter
+
+ng g guard shared/guards/auth
+
+LAZY LOAD:
 https://fjmduran.com/blog/lazy_load_angular
 
+HttpInterceptors:
+https://dev.to/ricardochl/como-usar-httpinterceptors-en-angular-2o84
 ```
 
 ## Package NPM
