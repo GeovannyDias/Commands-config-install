@@ -170,5 +170,9 @@ https://dev.to/ricardochl/como-usar-httpinterceptors-en-angular-2o84
 
 ```
 npm install -g @briebug/jest-schematic
+npm install -g yarn
+npm install -g typescript
+
 npm install --global yarn
+
 ```
