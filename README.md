@@ -176,3 +176,9 @@ npm install -g typescript
 npm install --global yarn
 
 ```
+## SSL
+
+```
+npm set strict-ssl false
+npm set strict-ssl true
+```
