@@ -195,10 +195,45 @@ To run Cmder as the VS Code terminal, you may follow these steps:
 4. Append or modify the following into your configuration file:
 
 "terminal.integrated.profiles.windows": {
-    "cmder": {
+    "Cmder": {
          "path": "C:\\WINDOWS\\System32\\cmd.exe",
          "args": ["/K", "C:\\Cmder\\vendor\\bin\\vscode_init.cmd"]
      }
 }
+
+
+Example:
+
+"terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        },
+        "Cmder": {
+            "path": "C:\\WINDOWS\\System32\\cmd.exe",
+            "args": ["/K", "C:\\cmder\\vendor\\bin\\vscode_init.cmd"]
+        }
+},
+
+
+Reboot VSC:
+
+Press Ctrl + Shift + P to access VSCode Command Palette
+>Termina: Select Default Profile
+Select Cmder
 
 ```
