@@ -182,3 +182,23 @@ npm install --global yarn
 npm set strict-ssl false
 npm set strict-ssl true
 ```
+
+## Cmdr Terminal
+* **https://github.com/cmderdev/cmder/wiki#cmder-integration**
+* **https://github.com/cmderdev/cmder/wiki/Seamless-VS-Code-Integration**
+```
+To run Cmder as the VS Code terminal, you may follow these steps:
+
+1. Press Ctrl + , to access VSCode Settings
+2. Search for settings.json
+3. Click Edit in settings.json
+4. Append or modify the following into your configuration file:
+
+"terminal.integrated.profiles.windows": {
+    "cmder": {
+         "path": "C:\\WINDOWS\\System32\\cmd.exe",
+         "args": ["/K", "C:\\Cmder\\vendor\\bin\\vscode_init.cmd"]
+     }
+}
+
+```
