@@ -197,7 +197,7 @@ To run Cmder as the VS Code terminal, you may follow these steps:
 "terminal.integrated.profiles.windows": {
     "Cmder": {
          "path": "C:\\WINDOWS\\System32\\cmd.exe",
-         "args": ["/K", "C:\\Cmder\\vendor\\bin\\vscode_init.cmd"]
+         "args": ["/K", "C:\\cmder\\vendor\\bin\\vscode_init.cmd"]
      }
 }
 
