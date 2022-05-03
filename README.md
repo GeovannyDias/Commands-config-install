@@ -191,7 +191,7 @@ npm set strict-ssl true
 ```
 puppeteer not able to install: 
 
-1. Go to project root:
+1. Go to project root.
 2. Open a terminal and run the following command:
 
 set PUPPETEER_SKIP_DOWNLOAD=true
