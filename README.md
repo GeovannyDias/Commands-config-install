@@ -183,7 +183,25 @@ npm set strict-ssl false
 npm set strict-ssl true
 ```
 
-## Cmdr Terminal
+## ERROR: Failed to set up Chromium r782078! Set "PUPPETEER_SKIP_DOWNLOAD" env variable to skip download
+
+[Solve Error:](https://stackoverflow.com/questions/63187371/puppeteer-not-able-to-install-error-failed-to-set-up-chromium-r782078-set-pu)
+
+
+```
+puppeteer not able to install: 
+
+1. Go to project root:
+2. Open a terminal and run the following command:
+
+set PUPPETEER_SKIP_DOWNLOAD=true
+
+3. Run: 
+
+npm i
+```
+
+## Cmder Terminal
 * **https://github.com/cmderdev/cmder/wiki#cmder-integration**
 * **https://github.com/cmderdev/cmder/wiki/Seamless-VS-Code-Integration**
 ```
