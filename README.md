@@ -199,6 +199,8 @@ set PUPPETEER_SKIP_DOWNLOAD=true
 3. Run: 
 
 npm i
+or
+npm i --force
 ```
 
 ## Cmder Terminal
