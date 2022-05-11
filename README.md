@@ -257,3 +257,11 @@ Press Ctrl + Shift + P to access VSCode Command Palette
 Select Cmder
 
 ```
+SQL Service - SSMS (Connection String)
+
+```
+Server=localhost;Database=master;Trusted_Connection=True;
+
+Al instalar SSMS despliega la cadena de conexión.
+
+```
