@@ -257,7 +257,7 @@ Press Ctrl + Shift + P to access VSCode Command Palette
 Select Cmder
 
 ```
-SQL Service - SSMS (Connection String)
+SQL Server 2029 - SSMS (Connection String)
 
 ```
 Server=localhost;Database=master;Trusted_Connection=True;
