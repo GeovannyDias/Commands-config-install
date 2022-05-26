@@ -264,4 +264,6 @@ Server=localhost;Database=master;Trusted_Connection=True;
 
 Al instalar SSMS despliega la cadena de conexión.
 
+Wide World Importers sample databases for Microsoft SQL
+
 ```
