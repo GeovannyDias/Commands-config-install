@@ -258,12 +258,27 @@ Select Cmder
 
 ```
 SQL Server 2029 - SSMS (Connection String)
-
+* **https://docs.microsoft.com/en-us/ef/core/cli/powershell**
 ```
 Server=localhost;Database=master;Trusted_Connection=True;
 
 Al instalar SSMS despliega la cadena de conexión.
 
+Examples:
+
+Scaffold-DbContext "Server=GEOLAP\SQLEXPRESS; Database=Pub; Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Scaffold-DbContext "Server=GEOLAP\SQLEXPRESS; Database=Pub; Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -ContextDir
+
+
+appsettings.json
+
+"ConnectionStrings": {
+    "DevConnection": "Server=(local)\\;Database=company_db_01;Trusted_Connection=True;MultipleActiveResultSets=True"
+ }
+ 
+
+DATA DATABASE:
 Wide World Importers sample databases for Microsoft SQL
 
 ```
