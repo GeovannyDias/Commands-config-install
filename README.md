@@ -267,9 +267,10 @@ Al instalar SSMS despliega la cadena de conexión.
 Examples:
 
 Scaffold-DbContext "Server=GEOLAP\SQLEXPRESS; Database=Pub; Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
-
 Scaffold-DbContext "Server=GEOLAP\SQLEXPRESS; Database=Pub; Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -ContextDir Context
 
+Update Database:
+Scaffold-DbContext "Server=GEOLAP\SQLEXPRESS; Database=Pub; Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -ContextDir Context -Force
 
 appsettings.json
 
