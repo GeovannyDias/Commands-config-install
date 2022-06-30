@@ -142,6 +142,7 @@ ng g module components/posts/new-post -m=app => Solo crear un "módulo". (Sin ru
 ng g module components/posts/list-posts -m=app --route posts
 ng g c components/posts/post
 ng g m app-material -m=app --flat
+ng g c basic/couter-route -is (Crear el componente sin el fichero de estilos *.scss)
 
 Create project modules (home, about and contact):
 
