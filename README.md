@@ -133,6 +133,8 @@ npm i -g @angular/cli
 ng --version
 
 CLI:
+ng new project-name
+ng new project-name --skip-install --commit
 
 ng g module components/pages/home -m=app --route home
 Crea el módulo, routing y componente (-m=app --route home → Crea la ruta "home" en app-routing.ts)
