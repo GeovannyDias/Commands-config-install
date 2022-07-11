@@ -22,7 +22,7 @@ Changelog: https://github.com/npm/cli/releases/tag/v8.4.0
 Run npm install -g npm@8.4.0 to update!
 
 npm install -g npm@8.4.0
-
+npm list -g
 ```
 
 ## NVM | Node version Manager
