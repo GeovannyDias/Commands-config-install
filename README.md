@@ -23,6 +23,10 @@ Run npm install -g npm@8.4.0 to update!
 
 npm install -g npm@8.4.0
 npm list -g
+
+
+npm install -g npm@latest
+npm install --location=global npm@latest
 ```
 
 ## NVM | Node version Manager
