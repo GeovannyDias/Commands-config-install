@@ -25,6 +25,11 @@ npm install -g npm@8.4.0
 npm list -g
 
 
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+Solve: npm latest
+
 npm install -g npm@latest
 npm install --location=global npm@latest
 ```
