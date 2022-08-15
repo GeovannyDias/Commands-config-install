@@ -296,3 +296,14 @@ DATA DATABASE:
 Wide World Importers sample databases for Microsoft SQL
 
 ```
+
+## Spring Boot CLI
+```
+
+MAVEN:
+
+mvn spring-boot:run
+mvn spring-boot:run -Dspring-boot.run.profiles=dev
+mvn spring-boot:run -Dspring-boot.run.profiles=test
+
+```
