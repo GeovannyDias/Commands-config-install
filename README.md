@@ -307,3 +307,25 @@ mvn spring-boot:run -Dspring-boot.run.profiles=dev
 mvn spring-boot:run -Dspring-boot.run.profiles=test
 
 ```
+## Base64 PDF
+```
+data:application/pdf;base64 + [stringBase64]
+
+Para descargar el documento:
+
+<a download='documento' href=[base64] title='Descargar' />
+
+Tienes que sustituir [base64] por la cadena que te llega del servidor.
+
+Por otro lado, para mostrar el pdf:
+
+var obj = document.createElement('object'); 
+obj.style.width = '100%';
+obj.style.height = '842pt';
+obj.type = 'application/pdf';
+obj.data = 'data:application/pdf;base64,' + [base64];
+document.body.appendChild(obj);
+
+Igualmente [base64] es el codigo base64 que te llega del servidor.
+
+```
