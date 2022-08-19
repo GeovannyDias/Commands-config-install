@@ -309,7 +309,7 @@ mvn spring-boot:run -Dspring-boot.run.profiles=test
 ```
 ## Base64 PDF
 ```
-data:application/pdf;base64 + [stringBase64]
+data:application/pdf;base64, + [stringBase64]
 
 Para descargar el documento:
 
