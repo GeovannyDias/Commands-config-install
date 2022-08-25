@@ -170,6 +170,7 @@ ng g m pipes/pipes -m=app --flat
 ng g pipe pipes/filter
 
 ng g guard shared/guards/auth
+ng g service modules/bin --flat=false (Crea carpera contenedor)
 
 LAZY LOAD:
 https://fjmduran.com/blog/lazy_load_angular
