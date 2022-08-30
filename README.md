@@ -173,6 +173,9 @@ ng g pipe pipes/filter
 ng g guard shared/guards/auth
 ng g service modules/bin --flat=false (Crea carpeta contenedor)
 
+ng test local --watch=true --code-coverage --browsers ChromeHeadless
+ng test --watch=true --code-coverage --browsers ChromeHeadless
+
 LAZY LOAD:
 https://fjmduran.com/blog/lazy_load_angular
 
