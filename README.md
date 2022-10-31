@@ -311,6 +311,9 @@ mvn spring-boot:run
 mvn spring-boot:run -Dspring-boot.run.profiles=dev
 mvn spring-boot:run -Dspring-boot.run.profiles=test
 
+mvn spring-boot:run -Ptest
+mvn spring-boot:run -Ptest -DskipTests
+
 ```
 ## Base64 PDF
 ```
