@@ -339,3 +339,6 @@ document.body.appendChild(obj);
 Igualmente [base64] es el codigo base64 que te llega del servidor.
 
 ```
+## async vs. defer in JavaScript
+
+* **https://cybmeta.com/diferencia-async-y-defer**
