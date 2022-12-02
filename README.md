@@ -352,6 +352,4 @@ Check "Track Active Item in Solution Explorer"
 Uncheck "Restore Solution Exporer project hierarchy state on solution load".
 
 Press Tools--> Options-->Projects and Solutions-->General
-
-
 ```
