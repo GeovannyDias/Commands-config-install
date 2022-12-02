@@ -342,3 +342,16 @@ Igualmente [base64] es el codigo base64 que te llega del servidor.
 ## async vs. defer in JavaScript
 
 * **https://cybmeta.com/diferencia-async-y-defer**
+
+## Visual Studio 2022 Bin folder expanding in Solution Explorer
+
+* **https://learn.microsoft.com/en-us/answers/questions/625975/visual-studio-2022-bin-folder-expanding-in-solutio.html**
+
+```
+Check "Track Active Item in Solution Explorer"
+Uncheck "Restore Solution Exporer project hierarchy state on solution load".
+
+Press Tools--> Options-->Projects and Solutions-->General
+
+
+```
