@@ -353,3 +353,14 @@ Uncheck "Restore Solution Exporer project hierarchy state on solution load".
 
 Press Tools--> Options-->Projects and Solutions-->General
 ```
+
+## Disable SmartScreen
+
+* **https://www.softzone.es/windows/como-se-hace/desactivar-smartscreen/**
+
+```
+Win + R => regedit
+Path: HKEY_LOCAL_MACHINE / SOFTWARE / Policies / Microsoft / Windows / System
+EnableSmartScreen => 0 = disable, 1 = enable
+ShellSmartScreenLevel  => Warn (Advertencia) o Block (Bloquear)
+```
