@@ -360,7 +360,13 @@ Press Tools--> Options-->Projects and Solutions-->General
 
 ```
 Win + R => regedit
-Path: Equipo\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System  OR  HKEY_LOCAL_MACHINE / SOFTWARE / Policies / Microsoft / Windows / System
+
+Path:
+Equipo\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System  
+OR
+HKEY_LOCAL_MACHINE / SOFTWARE / Policies / Microsoft / Windows / System
+
 EnableSmartScreen => 0 = disable, 1 = enable
+
 ShellSmartScreenLevel  => Warn (Advertencia) o Block (Bloquear)
 ```
