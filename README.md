@@ -181,6 +181,11 @@ https://fjmduran.com/blog/lazy_load_angular
 
 HttpInterceptors:
 https://dev.to/ricardochl/como-usar-httpinterceptors-en-angular-2o84
+
+TEST:
+
+npm test -- file-name.spect.tc --watch
+Extension: Jest
 ```
 
 ## Package NPM
