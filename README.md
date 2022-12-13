@@ -184,7 +184,7 @@ https://dev.to/ricardochl/como-usar-httpinterceptors-en-angular-2o84
 
 TEST:
 
-npm test -- file-name.spect.tc --watch
+npm test -- file-name.spect.ts --watch
 Extension: Jest
 ```
 
