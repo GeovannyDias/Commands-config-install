@@ -279,6 +279,32 @@ Press Ctrl + Shift + P to access VSCode Command Palette
 Select Cmder
 
 ```
+## Cmder Terminal (Credential Helper Selector)
+
+* **https://github.com/susanBuck/cmder/blob/master/vendor/git-for-windows/mingw64/doc/git-credential-manager/README.md**
+* **https://www.rahulpnath.com/blog/setting-up-git-credential-manager-for-windows-with-cmder/**
+* **https://stackoverflow.com/questions/25845963/git-credential-helper-update-password**
+```
+![image](https://user-images.githubusercontent.com/23192401/216726657-d5c1c9ae-25a1-4756-84b3-03dacc8aba04.png)
+
+Descargar: Git Credential Manager for Windows v1.20 (gcmw-v1.20.0.zip)
+https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases
+
+git config --list
+
+credential.helper=helper-selector
+credential.helperselector.selected=wincred
+
+credential.helper=manager
+
+git config --global credential.helper manager
+git config --global credential.modalprompt true
+
+git config --global credential.helper wincred
+git config --global credential.useHttpPath true
+
+```
+
 SQL Server 2029 - SSMS (Connection String)
 * **https://docs.microsoft.com/en-us/ef/core/cli/powershell**
 ```
