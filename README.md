@@ -401,3 +401,22 @@ EnableSmartScreen => 0 = disable, 1 = enable
 
 ShellSmartScreenLevel  => Warn (Advertencia) o Block (Bloquear)
 ```
+
+## CMD PORT
+
+```
+El primer paso será acceder como administrador a la consola del símbolo del sistema, allí ejecutamos lo siguiente:
+
+netstat -an | more
+
+Para conocer un puerto en especial usaremos lo siguiente:
+
+netstat -aon | findstr 80
+
+El PID es la última columna desplegada, esto es útil para saber con certeza que programa está usando dicho puerto, 
+por ejemplo, seleccionamos el PID 4600, con este valor en mente vamos al Administrador de tareas y nos dirigimos a 
+la pestaña “Detalles”, pulsamos en la columna PID para ordenarlos y luego veremos que el PID 4600 hace 
+referencia a la Tienda de Windows 10, identificamos el PID y finalizamos la ejecución.
+
+```
+
