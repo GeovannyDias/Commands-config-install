@@ -346,6 +346,7 @@ mvn spring-boot:run -Ptest
 mvn spring-boot:run -Ptest -DskipTests
 
 mvn clean install -U (-U means force update of snapshot dependencies)
+mvn clean compile
 
 ```
 ## Base64 PDF
