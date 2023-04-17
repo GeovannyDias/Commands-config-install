@@ -176,6 +176,13 @@ ng g service modules/bin --flat=false (Crea carpeta contenedor)
 ng test local --watch=true --code-coverage --browsers ChromeHeadless
 ng test --watch=true --code-coverage --browsers ChromeHeadless
 
+Config:
+"test": "ng test --watch=true --code-coverage --browsers ChromeHeadless",
+
+Run A Single Unit Test:
+ng test -- --include src/app/modules/feature/components/customer-folder
+ng test -- --include src/app/features/car-list/containers
+
 LAZY LOAD:
 https://fjmduran.com/blog/lazy_load_angular
 
