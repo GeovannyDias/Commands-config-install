@@ -180,7 +180,7 @@ Config:
 "test": "ng test --watch=true --code-coverage --browsers ChromeHeadless",
 
 Run A Single Unit Test:
-ng test -- --include src/app/modules/feature/components/customer-folder
+ng test -- --include src/app/modules/feature/components/customer-folder --code-coverage
 ng test -- --include src/app/features/car-list/containers
 
 LAZY LOAD:
