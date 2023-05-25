@@ -350,6 +350,7 @@ mvn spring-boot:run -Dspring-boot.run.profiles=dev
 mvn spring-boot:run -Dspring-boot.run.profiles=test
 
 mvn test
+mvn spring-boot:run test
 mvn spring-boot:run -Ptest
 mvn spring-boot:run -Ptest -DskipTests
 
