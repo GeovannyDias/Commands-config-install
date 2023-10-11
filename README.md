@@ -357,6 +357,25 @@ mvn spring-boot:run -Ptest -DskipTests
 mvn clean install -U (-U means force update of snapshot dependencies)
 mvn clean compile
 
+GRADLE:
+
+gradle -v
+// Gradle 8.4
+./gradlew wrapper --gradle-version=8.4 --distribution-type=bin
+.\gradlew wrapper --gradle-version=8.4 --distribution-type=bin
+./gradlew tasks
+
+gradle bootRun
+gradle bootRun {addResources = false}
+gradle run
+./gradlew bootRun
+.\gradlew bootRun
+
+gradle bootRun { main = 'com.example.ExampleApplication' }
+./gradlew bootRun --args='--spring.profiles.active=dev'
+.\gradlew bootRun --args='--spring.profiles.active=dev'
+https://docs.spring.io/spring-boot/docs/2.1.18.RELEASE/gradle-plugin/reference/html/
+
 ```
 ## Base64 PDF
 ```
