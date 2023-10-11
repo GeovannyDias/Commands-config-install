@@ -359,8 +359,7 @@ mvn clean compile
 
 GRADLE:
 
-gradle -v
-// Gradle 8.4
+gradle -v // Gradle 8.4
 ./gradlew wrapper --gradle-version=8.4 --distribution-type=bin
 .\gradlew wrapper --gradle-version=8.4 --distribution-type=bin
 ./gradlew tasks
