@@ -379,6 +379,12 @@ https://docs.spring.io/spring-boot/docs/2.1.18.RELEASE/gradle-plugin/reference/h
 
 ## VSC - Spring Boot Debug
 ```
+So you have an application.properties file and locally you have a application-local.properties(attention , you must name your local properties like that).
+
+Then in your launch.json you add it to your program parameters :
+
+"args": "--spring.profiles.active=local"
+
 https://stackoverflow.com/questions/54901961/visual-studio-code-spring-boot-project-change-spring-properties-additional-loc
 
 Configuration launch.json file - active profile:
