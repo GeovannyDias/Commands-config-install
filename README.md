@@ -376,6 +376,29 @@ gradle bootRun { main = 'com.example.ExampleApplication' }
 https://docs.spring.io/spring-boot/docs/2.1.18.RELEASE/gradle-plugin/reference/html/
 
 ```
+
+## VSC - Spring Boot Debug
+```
+https://stackoverflow.com/questions/54901961/visual-studio-code-spring-boot-project-change-spring-properties-additional-loc
+
+Configuration launch.json file - active profile:
+
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MotortransferenciasApplication<motortransferencias>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bp.motortransferencias.MotortransferenciasApplication",
+            "projectName": "motortransferencias",
+            "args": "--spring.profiles.active=test",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
+```
+
 ## Base64 PDF
 ```
 data:application/pdf;base64, + [stringBase64]
