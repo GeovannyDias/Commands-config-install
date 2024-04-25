@@ -480,6 +480,8 @@ referencia a la Tienda de Windows 10, identificamos el PID y finalizamos la ejec
 ## VSC
 
 ```
+Merge files(differentiate) in Visual Studio Code
+
 Ctrl + Shift + P
 >File: Compare Active File With... 
 
