@@ -142,6 +142,8 @@ npm cache clean --force
 npm i -g @angular/cli
 ng --version
 
+npm install --legacy-peer-deps
+
 CLI:
 ng new project-name
 ng new project-name --skip-install --commit
